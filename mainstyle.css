@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 한나체;
+  src:url(font/BMHANNA_11yrs_ttf.ttf);
+}
+html{
+  font-family: 한나체;
+  background-color: white;
+  margin: 0px;
+}
+.loading{
+  position: fixed;
+  z-index: 99;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading > img{
+  width: 60%;
+}
+.loading.hidden{
+  animation: fadeOut 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#searchbar{
+  font-family: 한나체;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 90%;
+  height: 25px;
+  border: 3px solid #2CC0BD;
+  color: #2CC0BD;
+}
+#shopcontents{
+  list-style-type: none;
+  display: inline;
+}
+input::placeholder{
+  color: #2CC0BD;
+}
+.topsticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+  color:#2CC0BD;
+  background-color: white;
+  padding-bottom: 10px;
+}
+.maintopic{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.top{
+  text-align: center;
+  font-size: 1.3rem;
+}
+.ci{
+  text-align: center;
+  padding-left :40%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.search{
+  text-align: center;
+}
+.shoplist{
+  text-align: left;
+}
+.list-a{
+  text-decoration: none;
+  color:white;
+}
+li{
+  text-align: center;
+  background-color: #2CC0BD;
+  margin: 5px;
+  font-size: 1.2rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.prologue{
+  text-align: center;
+}
+.prologue2{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.topic{
+  padding: 10%;
+}
+.prologue-1{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.start{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: gray;
+}
+.caution{
+  text-align: center;
+  color:red;
+  font-size: 0.5rem;
+}

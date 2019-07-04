@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 한나체;
+  src:url(font/BMHANNA_11yrs_ttf.ttf);
+}
+@font-face {
+  font-family: 한나체Air;
+  src:url(font/BMHANNAAir_ttf.ttf);
+}
+html{
+  margin: 0;
+  font-family: 한나체;
+}
+body{
+  margin: 0;
+}
+.shopinfo{
+  font-family: 한나체Air;
+}
+.loading{
+  position: fixed;
+  z-index: 99;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading > img{
+  width: 60%;
+}
+.loading.hidden{
+  animation: fadeOut 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.backui{
+  height:30px;
+  width:30px;
+  text-align: center;
+}
+.back-a{
+  padding-top:14.19px;
+  padding-left: 10px;
+}
+.maintopic{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+  background-color: #2CC0BD;
+  margin: 0;
+  padding: 0;
+}
+.shopname{
+  color:white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.shopname2{
+  font-size: 1.2rem;
+}
+.shopinfo{
+  text-align: center;
+}
+.epilogue{
+  text-align: center;
+}
+.gomain{
+  text-decoration: none;
+  color: #2CC0BD;
+  font-size: 1.2rem;
+}
