@@ -44,7 +44,7 @@ h3{
   grid-template-rows: 1fr 1fr;
   width: 90%;
 }
-.garak, .munjeong, .jamsil, .gangdong{
+.garak, .munjeong, .jamsil, .gangdong, .center, .garage{
   border: solid 0px #2CC0BD;
   background-color: #2CC0BD;
   color:white;
