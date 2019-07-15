@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 한나체;
+  src:url(font/BMHANNA_11yrs_ttf.ttf);
+}
+@font-face {
+  font-family: 한나체A;
+  src:url(font/BMHANNAAir_ttf.ttf)
+}
+html{
+  font-family: 한나체;
+  background-color: white;
+  margin: 0px;
+}
+body{
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  }
+.top{
+  text-align: center;
+}
+.toptopic{
+  margin: 0px;
+  background-color: white;
+  color:#2CC0BD;
+}
+h3{
+  margin: 0px;
+}
+.middle{
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.middlep{
+  font-family: 한나체A;
+}
+.areachoice{
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 90%;
+}
+.garak, .munjeong, .jamsil, .gangdong{
+  border: solid 0px #2CC0BD;
+  background-color: #2CC0BD;
+  color:white;
+  margin: 1px;
+  font-size: 1.2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.bottom{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.notice{
+  font-family:한나체A;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.suggestion{
+  border: soild 0px #2CC0BD;
+  background-color: #2CC0BD;
+  color:white;
+  width: 90%;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 5px;
+}
+.helper{
+  color: gray;
+  padding-top: 20px;
+  font-family: 한나체A;
+  font-size:0.7rem;
+}
