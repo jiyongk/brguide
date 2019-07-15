@@ -73,7 +73,7 @@ h3{
   font-size: 1.1rem;
   padding: 5px;
 }
-.helper{
+.epilogue, .helper{
   color: gray;
   padding-top: 20px;
   font-family: 한나체A;
