@@ -13,6 +13,9 @@ html{
 body{
   margin: 0;
 }
+a{
+  text-decoration: none;
+}
 .shopinfo{
   font-family: 한나체Air;
 }
@@ -84,6 +87,14 @@ body{
   border: 1px solid #2CC0BD;
   padding-top:5px;
   padding-bottom: 5px;
+}
+.route > a{
+  color:#2CC0BD;
+}
+.routetopic{
+  font-family: 한나체;
+  font-size: 1.1rem;
+  color:#2CC0BD;
 }
 .shopinfo{
   text-align: center;
