@@ -76,7 +76,7 @@ body{
   position: -webkit-sticky;
   position: sticky;
   background-color: white;
-  top:57.99px;
+  top:58px;
 }
 .route{
   text-align: center;
@@ -90,6 +90,7 @@ body{
 }
 .epilogue{
   text-align: center;
+  padding-bottom: 10%;
 }
 .gomain{
   text-decoration: none;
