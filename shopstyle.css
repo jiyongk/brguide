@@ -69,6 +69,18 @@ body{
 .shopname2{
   font-size: 1.2rem;
 }
+.choiceroute{
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.route{
+  text-align: center;
+  color: #2CC0BD;
+  border: 1px solid #2CC0BD;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
 .shopinfo{
   text-align: center;
 }
