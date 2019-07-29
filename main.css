@@ -8,7 +8,7 @@
 }
 html{
   font-family: 한나체;
-  background-color: white;
+  background-color: #2CC0BD;
   margin: 0px;
 }
 body{
@@ -16,7 +16,8 @@ body{
 }
 a{
   text-decoration: none;
-  color: white;
+  color: #2CC0BD;
+;
   }
   .loading{
     position: fixed;
@@ -51,8 +52,8 @@ a{
 }
 .toptopic{
   margin: 0px;
-  background-color: white;
-  color:#2CC0BD;
+  background-color: #2CC0BD;
+  color:white;
 }
 .toptopic2{
   font-size: 0.9rem;
@@ -69,6 +70,7 @@ h3{
 }
 .middlep{
   font-family: 한나체A;
+  color:white;
 }
 .areachoice{
   display: inline-grid;
@@ -77,9 +79,9 @@ h3{
   width: 90%;
 }
 .garak, .munjeong, .jamsil, .gangdong, .center, .garage{
-  border: solid 0px #2CC0BD;
-  background-color: #2CC0BD;
-  color:white;
+  border: solid 0px white;
+  background-color: white;
+  color: #2CC0BD;
   margin: 1px;
   font-size: 1.2rem;
   padding-top: 5px;
@@ -94,11 +96,12 @@ h3{
   font-family:한나체A;
   text-align: center;
   padding-bottom: 20px;
+  color: white;
 }
 .suggestion{
-  border: soild 0px #2CC0BD;
-  background-color: #2CC0BD;
-  color:white;
+  border: soild 0px white;
+  background-color: white;
+  color: #2CC0BD;
   width: 90%;
   text-align: center;
   display: inline-block;
@@ -106,7 +109,7 @@ h3{
   padding: 5px;
 }
 .epilogue, .helper{
-  color: gray;
+  color: white;
   padding-top: 20px;
   font-family: 한나체A;
   font-size:0.7rem;
