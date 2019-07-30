@@ -80,6 +80,7 @@ a{
   position: sticky;
   background-color: white;
   top:58px;
+  z-index: 99;
 }
 .route{
   text-align: center;
