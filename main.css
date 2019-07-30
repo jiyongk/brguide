@@ -84,14 +84,16 @@ h3{
   color: #2CC0BD;
   margin: 1px;
   font-size: 1.2rem;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .empty{
   border: solid 0px white;
   background-color: white;
   color: #2CC0BD;
   margin: 1px;
+  padding-bottom: 0;
+  padding-top: 5px;
   font-size: 1.2rem;
 }
 .deliveryarea{
@@ -102,8 +104,8 @@ h3{
   color: #2CC0BD;
   margin: 1px;
   font-size: 1.2rem;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 89.5%;
 }
 .bottom{
