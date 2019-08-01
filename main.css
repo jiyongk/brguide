@@ -113,13 +113,20 @@ h3{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.notice{
+.webapp{
   font-family:한나체A;
   text-align: center;
   padding-bottom: 20px;
   color: white;
 }
-.suggestion{
+.notice{
+  font-family:한나체A;
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+  padding-top:20px;
+}
+.webapp2, .suggestion{
   border: soild 0px white;
   background-color: white;
   color: #2CC0BD;
