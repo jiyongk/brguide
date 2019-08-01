@@ -1,0 +1,36 @@
+{
+    "name": "배민라이더스 가이드맵",
+    "short_name": "배라가이드맵",
+    "description": "배민라이더의 미아 방지용",
+    "icons": [
+        {
+            "src": "image/배달잉.png",
+            "sizes": "16x16",
+            "type": "image/배달잉.png"
+        },
+        {
+            "src": "image/배달잉.png",
+            "sizes": "32x32",
+            "type": "image/배달잉.png"
+        },
+        {
+            "src": "image/배달잉.png",
+            "sizes": "64x64",
+            "type": "image/배달잉.png"
+        },
+        {
+            "src": "image/배달잉.png",
+            "sizes": "128x128",
+            "type": "image/배달잉.png"
+        },
+        {
+            "src": "image/배달잉.png",
+            "sizes": "256x256",
+            "type": "image/배달잉.png"
+        },
+    ],
+    "start_url": "main.html",
+    "display": "fullscreen",
+    "theme_color": "#2CC0BD",
+    "background_color": "#FFFFFF"
+}
