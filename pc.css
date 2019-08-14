@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 한나체;
+  src:url(font/BMHANNA_11yrs_ttf.ttf);
+}
+@font-face {
+  font-family: 한나체Air;
+  src:url(font/BMHANNAAir_ttf.ttf);
+}
+html{
+  font-family: 한나체;
+  background-color: #2CC0BD;
+  margin: 0px;
+}
+.topic{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.article{
+  text-align: center;
+  color:white;
+  font-size: 1.2rem;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.epilogue, .helper{
+  text-align: center;
+  font-family: 한나체A;
+  color:lightgray;
+  padding-top:20px;
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+}
