@@ -29,111 +29,39 @@
       } else {
       };
     </script>
-    <div class="loading">
-      안녕하세요!!!<br>
-      반가워요!!!<br>
-      업소찾기, 어렵지 않아요~
-    </div>
-    <section class="top">
+    <div class="top">
+      <div class="ci">
+        <image src="image/ci.png">
+      </div>
       <div class="toptopic">
-        배민라이더스 가이드맵
+      가이드맵
       </div>
-    </section>
-    <section class="middle">
-      <div class="middleslide">
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <a href="main.html">
-              <img src="image/mainslide2.png" class="slideimages">
-            </a>
-          </div>
-          <div class="mySlides fade">
-            <a href="https://forms.gle/iMD8negmQate1RSL8">
-              <img src="image/mainslide4.png" class="slideimages">
-            </a>
-          </div>
-          <div class="mySlides fade">
-            <img src="image/mainslide7.png" class="slideimages">
-          </div>
-          <br>
-          <div class="slidedots">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-        </div>
+    </div>
+    <div class="middle">
+      <div class="middleart">
+      업데이트 중이에요.
       </div>
-      <div class="middlearticle">
+      <div class="choice">
         찾을 가게의 행정동을 선택하세요.
       </div>
       <div class="category">
         <div class="category-1">
-          <a href="garak.html">가락1동<br>(가락시장)</a>
+          <a href="garak.html">가락1동(가락시장)</a>
         </div>
         <div class="category-2">
-          <a href="munjeong.html">문정2동<br>(법조단지)</a>
+          <a href="munjeong.html">문정2동(법조단지)</a>
         </div>
         <div class="category-3">
-          <a href="jamsil.html">잠실동<br>(2/3/4/6동)</a>
+          <a href="jamsil.html">잠실동(2/3/4/6동)</a>
         </div>
-        <div class="category-4">
-           <a href="https://map.kakao.com/?map_type=TYPE_MAP&q=서울+송파구+풍납동+270-16&urlLevel=3&urlX=524852&urlY=1119781">
-          송파강동점<br>관제사무실</a>
-        </div>
-        <div class="category-5">
-          <a href="https://map.kakao.com/?map_type=TYPE_MAP&q=서울+송파구+송파동+174&urlLevel=3&urlX=525750&urlY=1112000">
-          송파강동점<br>정비실</a>
-        </div>
-        <div class="category-6">
-          주요배달지<br>가이드맵
-        </div>
-      </div>
-    </section>
-    <section class="bottom">
+    </div>
+    <div class="bottom">
       <div class="webapp">
-        가이드맵을 더 편하게 이용해 볼까요?
+        <a href="webapp.html">혹시 아이폰 이신가요?</a>
       </div>
-        <div class="webapp2">
-        <a href="webapp.html">홈 화면에 추가하기<br>(아이폰사용자만가능)</a>
-        </div>
-      <div class="notice">
-        개선 또는 수정해야할 내용이 있다면<br>아래를 클릭해주세요.
+      <div class="power">
+        <b>Powered by Github pages</b>
       </div>
-      <a href="https://forms.gle/iMD8negmQate1RSL8">
-        <div class="suggestion">
-        제안 및 건의
-        </div></a>
-      <div class="epilogue">
-        이 사이트는 배민라이더의 편의를 위해<br>
-        단순히 제작자의 공부용으로 만들어진 사이트입니다.<br>
-      </div>
-      <div class="helper">
-        <b>Thank you for helping</b><br><br>
-        요한매니저님<br>
-        온이형<br>
-        헌기형<br><br><br>
-        <b>Powered by Github page</b>
-      </div>
-    </section>
-    <script>
-    var slideIndex = 0;
-    showSlides();
-    function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 3000);
-    }
-    </script>
+    </div>
   </body>
 </html>
