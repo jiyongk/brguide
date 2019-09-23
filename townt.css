@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 한나체;
+  src:url(font/BMHANNA_11yrs_ttf.ttf);
+}
+@font-face {
+  font-family: 한나체A;
+  src:url(font/BMHANNAAir_ttf.ttf);
+}
+html{
+  font-family: 한나체;
+  background-color: white;
+}
+body{
+  margin: 0px;
+}
+.loading{
+  position: fixed;
+  z-index: 99;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading img{
+  width: 60%;
+}
+.loading.hidden{
+  animation: fadeOut 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#searchbar{
+  font-family: 한나체A;
+  text-align: center;
+  font-size: 0.9rem;
+  width: 90%;
+  height: 20px;
+  border: 1.5px solid #2CC0BD;
+  border-radius: 15px;
+  color: gray;
+}
+#shopcontents{
+  list-style-type: none;
+  display: inline;
+}
+input::placeholder{
+  font-family: 한나체A;
+  font-size: 0.9rem;
+  color: gray;
+}
+.shoplist{
+  text-align: left;
+}
+.list-a{
+  text-decoration: none;
+  color:white;
+}
+li{
+  text-align: center;
+  background-color: #2CC0BD;
+  margin: 5px;
+  font-size: 1.1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 30px;
+}
+.backui{
+  height: 30px;
+  width: 16.6px;
+  text-align: center;
+  padding-left: 16.7px;
+  padding-right: 16.7px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.backui-a{
+  width: 50%;
+  text-align: center;
+  padding:25%;
+}
+.top{
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: white;
+  top:0px;
+  z-index: 98;
+}
+.topgrid{
+  display:grid;
+  grid-template-columns: 45px  60px 1fr;
+  grid-auto-rows: 45px;
+  border-bottom: 1px solid lightgray;
+  z-index: 2;
+  vertical-align: middle;
+}
+.ci{
+  padding-top:5px;
+  padding-left: 5px;
+}
+.ci img{
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+.toptopic{
+  display: inline;
+  font-size: 1.1rem;
+  color:#2CC0BD;
+  padding-top:14px;
+  text-align: center;
+}
+.search{
+  padding-top:10px;
+  text-align: center;
+}
+.explain{
+  text-align: center;
+  color:#2CC0BD;
+  font-size: 0.8rem;
+  font-family: 한나체A;
+  padding-top: 20px;
+}

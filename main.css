@@ -68,7 +68,7 @@ body{
   text-decoration: none;
   color:gray;
 }
-.category-1, .category-2, .category-3{
+.category-1, .category-2, .category-3, .category-4{
   margin-bottom: 3px;
   padding-top:5px;
   padding-bottom: 5px;
@@ -88,6 +88,13 @@ body{
 }
 .webapp a{
   color:gray;
+}
+.epilogue{
+  text-align: center;
+  color:gray;
+  font-family: 한나체A;
+  font-size:0.7rem;
+  padding-top:20px;
 }
 .power{
   text-align: center;
