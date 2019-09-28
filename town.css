@@ -3,12 +3,14 @@
   src:url(font/BMHANNA_11yrs_ttf.ttf);
 }
 @font-face {
-  font-family: 한나체Air;
+  font-family: 한나체A;
   src:url(font/BMHANNAAir_ttf.ttf);
 }
 html{
   font-family: 한나체;
   background-color: white;
+}
+body{
   margin: 0px;
 }
 .loading{
@@ -37,12 +39,12 @@ html{
   }
 }
 #searchbar{
-  font-family: 한나체;
+  font-family: 한나체A;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   width: 90%;
-  height: 25px;
-  border: 2px solid #2CC0BD;
+  height: 20px;
+  border: 1.5px solid #2CC0BD;
   border-radius: 15px;
   color: gray;
 }
@@ -51,34 +53,9 @@ html{
   display: inline;
 }
 input::placeholder{
-  font-family: 한나체Air;
-  font-size: 1.1rem;
+  font-family: 한나체A;
+  font-size: 0.9rem;
   color: gray;
-}
-.topsticky{
-  position: -webkit-sticky;
-  position: sticky;
-  top:0px;
-  background-color: white;
-}
-.maintopic{
-  display: grid;
-  grid-template-columns: 50px 1fr;
-  background-color: white;
-  color:#2CC0BD;
-  height: 50px;
-}
-.top{
-  text-align: center;
-  font-size: 1.3rem;
-  margin: 0px;
-  padding-top:14px;
-  padding-bottom: 14px;
-}
-.search{
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 .shoplist{
   text-align: left;
@@ -91,11 +68,11 @@ li{
   text-align: center;
   background-color: #2CC0BD;
   margin: 5px;
-  font-size: 1.2rem;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  font-size: 1.1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 30px;
 }
 .backui{
@@ -106,5 +83,51 @@ li{
   padding-right: 16.7px;
   padding-top:10px;
   padding-bottom: 10px;
-
+}
+.backui-a{
+  width: 50%;
+  text-align: center;
+  padding:25%;
+}
+.top{
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: white;
+  top:0px;
+  z-index: 98;
+}
+.topgrid{
+  display:grid;
+  grid-template-columns: 45px  60px 1fr;
+  grid-auto-rows: 45px;
+  border-bottom: 1px solid lightgray;
+  z-index: 2;
+  vertical-align: middle;
+}
+.ci{
+  padding-top:5px;
+  padding-left: 5px;
+}
+.ci img{
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+.toptopic{
+  display: inline;
+  font-size: 1.1rem;
+  color:#2CC0BD;
+  padding-top:14px;
+  text-align: center;
+}
+.search{
+  padding-top:10px;
+  text-align: center;
+}
+.explain{
+  text-align: center;
+  color:#2CC0BD;
+  font-size: 0.8rem;
+  font-family: 한나체A;
+  padding-top: 20px;
 }

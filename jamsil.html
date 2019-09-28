@@ -14,22 +14,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="town.css" rel="stylesheet">
+    <link rel="icon" href="image/favicon.ico">
     <title> 배민라이더스 가이드맵</title>
   </head>
   <body>
     <div class="loading">
       <img src="image/배달이.gif" alt="loading!" />
     </div>
-    <section class="topsticky">
-      <div class="maintopic">
-        <a href="main.html"><image src="image/backui2.png" class="backui"></a>
-        <h3 class="top">잠실동(2,3,4,6동)</h3>
+    <div class="top">
+      <div class="topgrid">
+        <div class="ci">
+          <a href="main.html"><image src="image/ci.png"></a>
+        </div>
+        <div class="toptopic">
+        잠실동
+        </div>
+        <div class="search">
+          <input type="text" id="searchbar" onkeyup="myFunction()" placeholder="가게명을 입력하세요." title="업소검색">
+        </div>
       </div>
-      <div class="search">
-        <input type="text" id="searchbar" onkeyup="myFunction()" placeholder="업소명을 입력하세요!!" title="업소검색">
-      </div>
-    </section>
-    <div class="shoplist">
+    </div>
+    <div class="explain">
+          위 검색창에 찾으려는 가게이름을 입력한 뒤 터치하세요.
+    </div>    <div class="shoplist">
       <ul id="shopcontents">
         <li><a class="list-a" href="3.33떡볶이잠실엘스점.html">33떡볶이 잠실엘스점</a></li>
         <li><a class="list-a" href="3.가고야.html">가고야</a></li>
