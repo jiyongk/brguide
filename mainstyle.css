@@ -1,10 +1,10 @@
 @font-face {
   font-family: 한나체;
-  src:url(../font/BMHANNA_11yrs_ttf.ttf);
+  src:url(font/BMHANNA_11yrs_ttf.ttf);
 }
 @font-face {
   font-family: 한나체A;
-  src:url(../font/BMHANNAAir_ttf.ttf)
+  src:url(font/BMHANNAAir_ttf.ttf)
 }
 body{
   margin: 0;
