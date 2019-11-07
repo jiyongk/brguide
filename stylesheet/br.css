@@ -1,0 +1,292 @@
+@font-face {
+  font-family: 한나체;
+  src:url(../font/BMHANNA_11yrs_ttf.ttf);
+}
+@font-face {
+  font-family: 한나체A;
+  src:url(../font/BMHANNAAir_ttf.ttf)
+}
+body{
+  margin: 0;
+  font-family: 한나체;
+}
+.top{
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  height: 50px;
+  background-color: white;;
+  border-bottom: 1px solid gray;
+}
+.toplogo img{
+  width: 40px;
+  height: 40px;
+}
+.toplogo a{
+  size: 0;
+}
+.toplogo{
+  text-align: center;
+  padding: 5px;
+}
+.topname{
+  font-size: 20px;
+  color: #2CC0BD;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.middle{
+  padding-top: 20px;
+  font-size: 2rem;
+}
+.choice{
+  padding-left: 10%;
+  font-family: 한나체A;
+  font-size:0.8rem;
+  padding-bottom: 10px;
+}
+.category{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width:80%;
+  padding-left: 10%;
+}
+.category a{
+  text-decoration: none;
+  color:#2CC0BD;
+}
+.categoryList{
+  margin-bottom: 5px;
+  padding-top:7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  border: 1px solid lightgray;
+  font-size:1.2rem;
+  color: gray;
+  border-radius: 15px;
+}
+.explaination{
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+.epilogue{
+  text-align: center;
+  color:gray;
+  font-family: 한나체A;
+  font-size:0.7rem;
+  padding-top:20px;
+}
+.power{
+  text-align: center;
+  font-family: 한나체A;
+  color:gray;
+  padding-top:20px;
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+}
+.bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+.bottom img{
+  width: 40px;
+  height: 40px;
+}
+.bottomNotice{
+  text-align: left;
+  padding: 10px;
+}
+.bottomProposal{
+  text-align: right;
+  padding: 10px;
+}
+.loading{
+  position: fixed;
+  z-index: 99;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.loading.hidden{
+  animation: fadeOut 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.top_town{
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  height: 50px;
+  width: 100%;
+  background-color: white;;
+  border-bottom: 1px solid lightgray;
+}
+.topname_town{
+  font-size: 1.3rem;
+  color: #2CC0BD;
+}
+.topname_town span{
+  display: table-cell;
+  vertical-align: middlㅌe;
+}
+.toplogo_town a{
+  size: 0;
+}
+.toplogo_town img{
+  width: 80%;
+  height: 80%;
+}
+.toplogo_town{
+  text-align: center;
+  padding: 15% 15%;
+}
+.search{
+  text-align: center;
+}
+.search_notice{
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: 한나체A;
+  margin-bottom: 10px;
+}
+#searchbar{
+  font-family: 한나체A;
+  text-align: center;
+  font-size: 0.9rem;
+  width: 80%;
+  height: 25px;
+  border: 1.5px solid #2CC0BD;
+  border-radius: 15px;
+  color: gray;
+}
+input::placeholder{
+  font-family: 한나체A;
+  font-size: 0.9rem;
+  color: gray;
+}
+.shoplist{
+  margin-top: 20px;
+}
+.shoplist ul{
+  margin: 0;
+  width: 80%;
+  padding: 0% 10%;
+}
+.shoplist li{
+  text-decoration: none;
+  background-color: #2CC0BD;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 5px;
+  padding: 7px;
+  list-style: none;
+}
+.shoplist a{
+  text-decoration: none;
+  color:white;
+}
+.top_shop{
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  height: 50px;
+  background-color: white;;
+  border-bottom: 1px solid lightgray;
+}
+.toplogo_shop a{
+  size: 0;
+}
+.toplogo_shop img{
+  width: 70%;
+  height: 70%;
+}
+.toplogo_shop{
+  text-align: center;
+  padding: 15% 15%;
+}
+.topname_shop{
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #2CC0BD;
+  text-align: center;
+}
+.middle_shop{
+  padding-top: 10px;
+}
+.find_road{
+  text-align: center;
+  font-size: 1rem;
+  font-family: 한나체A;
+}
+.find_road img{
+  width: 100%;
+}
+.bottom_shop{
+  border-top: 1px solid lightgray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom:0px;
+}
+.bottom_shop a{
+  text-decoration: none;
+  color:white;
+}
+.goProposal{
+  text-align: center;
+  padding: 15px;
+  color:white;
+  background-color: lightgray;
+}
+.goMain{
+  text-align: center;
+  padding: 15px;
+  color:white;
+  font-size: 1rem;
+  background-color: #2CC0BD;
+}
+.noticelist{
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.noticelist li{
+  list-style: none;
+  border: 1px solid lightgray;
+  width: 80%;
+  text-align: left;
+}
+.noticelist_2{
+  padding: 0;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}

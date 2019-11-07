@@ -1,60 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>배민라이더스 가이드맵</title>
+    <meta property="og:title" content="배민라이더스 가이드맵">
+    <meta property="og:site_name" content="배민라이더스 가이드맵">
+    <meta property="og:url" content="https://jiyongk.github.io/brguide/main.html">
+    <meta property="og:image" content="#">
+    <meta property="og:description" content="앞으로는 해매지 마세요 ㅠㅠ">
+    <link rel="stylesheet" href="stylesheet/br.css">
+    <link rel="icon" href="image/ci.png">
+    <script src="script/br.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139456510-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-139456510-1');
     </script>
-    <script src="br.js"></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="town.css" rel="stylesheet">
-    <link rel="icon" href="image/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title> 배민라이더스 가이드맵</title>
   </head>
   <body>
     <div class="loading">
-      <img src="image/배달이.gif" alt="loading!" />
+      <div>로딩중이에요.<br> 잠시만 기다려주세요!</div>
     </div>
-    <div class="top">
-      <div class="topgrid">
-        <div class="ci">
-          <a href="main.html"><image src="image/ci.png"></a>
-        </div>
-        <div class="toptopic">
-        가락1동
-        </div>
-        <div class="search">
-          <input type="text" id="searchbar" onkeyup="myFunction()" placeholder="가게명을 입력하세요." title="업소검색">
-        </div>
+    <div class="top_town">
+      <div class="toplogo_town">
+        <a href="index.html"><image src="image/backui.png"></a>
+      </div>
+      <div class="topname_town">
+        <span>가락동<span>
       </div>
     </div>
-    <div class="explain">
-          위 검색창에 찾으려는 가게이름을 입력한 뒤 터치하세요.
+    <div class="middle">
+      <div class="search_notice">
+        아래 검색창을 이용하세요.
+      </div>
+      <div class="search">
+        <input type="text" id="searchbar" onkeyup="searchShop()" placeholder="가게명을 입력하세요." title="업소검색">
+      </div>
+      <div class="shoplist">
+        <ul id="shoplist_contents">
+          <script>
+            var i = 0;
+            while(i < garak.length){
+            document.write("<li><a href='1."+garak[i]+".html'>"+garak[i]+"</a></li>");
+            i++;
+            }
+          </script>
+        </ul>
+      </div>
     </div>
-    <div class="shoplist">
-      <ul id="shopcontents">
-        <li><a class="list-a" href="1.가락몰대풍수산.html">가락몰 대풍수산</a></li>
-        <li><a class="list-a" href="1.가락몰즐거운수산.html">가락몰 즐거운수산</a></li>
-        <li><a class="list-a" href="1.가락시장금성횟집.html">가락시장 금성횟집</a></li>
-        <li><a class="list-a" href="1.가락시장온달수산.html">가락시장 온달수산</a></li>
-        <li><a class="list-a" href="1.가락시장필립수산.html">가락시장 필립수산</a></li>
-        <li><a class="list-a" href="1.남도홍어.html">남도홍어</a></li>
-        <li><a class="list-a" href="1.수인상회.html">수인상회</a></li>
-        <li><a class="list-a" href="1.싱싱해수산.html">싱싱해수산</a></li>
-        <li><a class="list-a" href="1.유만복수산.html">유 만복수산</a></li>
-        <li><a class="list-a" href="1.킹콩쥬스&커피.html">킹콩쥬스&커피</a></li>
-        <li><a class="list-a" href="1.하나스시.html">하나스시</a></li>
-        <!-- sample
-          <li><a class="list-a" href=".html"></a></li> -->
-      </ul>
-    </div>
-    <div class="explain2">19년 09월 30일 배민라이더스에 등록된 <br>가게목록을 기준으로 작성되었습니다.</div>
   </body>
 </html>
